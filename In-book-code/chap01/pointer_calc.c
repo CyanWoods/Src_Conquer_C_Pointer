@@ -15,6 +15,7 @@ int main(void)
     printf("hoge_p..%p\n", (void*)hoge_p);
     /* 输出hoge_p加3后的值 */
     printf("hoge_p..%p\n", (void*)(hoge_p + 3));
+    printf("length of int is %lu\n",sizeof(hoge));
 
     return 0;
 }

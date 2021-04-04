@@ -10,10 +10,13 @@ int main(void)
     printf("&hoge..%p\n", (void*)&hoge);
     printf("&piyo..%p\n", (void*)&piyo);
     printf("&hoge_p..%p\n", (void*)&hoge_p);
+    printf("\n");
 
     /* 将hoge的地址赋给指针变量hoge_p */
     hoge_p = &hoge;
     printf("hoge_p..%p\n", (void*)hoge_p);
+    printf("hoge_p..%d\n", (void*)hoge_p);
+    printf("hoge_p..%x\n", (void*)hoge_p);
 
     /* 通过hoge_p输出hoge的值 */
     printf("*hoge_p..%d\n", *hoge_p);
